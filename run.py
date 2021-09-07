@@ -1,5 +1,6 @@
 import gspread
 from google.oauth2.service_account import Credentials
+from pprint import pprint
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -88,4 +89,4 @@ def main():
 
 
 print("Welcome to Love Sandwiches Data Automation")
-main()
+main() 
